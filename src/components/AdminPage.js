@@ -18,7 +18,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
 
 export default function AdminPage() {
-  const navigate = useNavigate(); // ✅ Hook inside component
+  const navigate = useNavigate(); // Hook inside component
 
   const [events, setEvents] = useState([
     {
@@ -214,3 +214,4 @@ export default function AdminPage() {
     </Container>
   );
 }
+
